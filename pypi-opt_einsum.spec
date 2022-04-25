@@ -4,7 +4,7 @@
 #
 Name     : pypi-opt_einsum
 Version  : 3.3.0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/7d/bf/9257e53a0e7715bc1127e15063e831f076723c6cd60985333a1c18878fb8/opt_einsum-3.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7d/bf/9257e53a0e7715bc1127e15063e831f076723c6cd60985333a1c18878fb8/opt_einsum-3.3.0.tar.gz
 Summary  : Optimizing numpys einsum function
@@ -14,9 +14,6 @@ Requires: pypi-opt_einsum-license = %{version}-%{release}
 Requires: pypi-opt_einsum-python = %{version}-%{release}
 Requires: pypi-opt_einsum-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: opt_einsum
-Provides: opt_einsum-python
-Provides: opt_einsum-python3
 BuildRequires : pypi(numpy)
 
 %description
@@ -65,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641465089
+export SOURCE_DATE_EPOCH=1650928468
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
