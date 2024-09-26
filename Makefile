@@ -1,5 +1,5 @@
 PKG_NAME := pypi-opt_einsum
-URL = https://files.pythonhosted.org/packages/7d/bf/9257e53a0e7715bc1127e15063e831f076723c6cd60985333a1c18878fb8/opt_einsum-3.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/8c/b9/2ac072041e899a52f20cf9510850ff58295003aa75525e58343591b0cbfb/opt_einsum-3.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
