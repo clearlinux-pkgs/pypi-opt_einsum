@@ -7,7 +7,7 @@
 #
 Name     : pypi-opt_einsum
 Version  : 3.4.0
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/8c/b9/2ac072041e899a52f20cf9510850ff58295003aa75525e58343591b0cbfb/opt_einsum-3.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8c/b9/2ac072041e899a52f20cf9510850ff58295003aa75525e58343591b0cbfb/opt_einsum-3.4.0.tar.gz
 Summary  : Path optimization of einsum functions.
